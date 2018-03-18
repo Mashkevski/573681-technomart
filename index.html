@@ -217,7 +217,7 @@
       </section>
 
       <section class="services">
-        <h2>Сервисы</h2>
+        <h2 class="title">Сервисы</h2>
         <p>Хороший интернет-магазин отличается от плохого не только ценами!
           Мы стараемся изо всех сил, чтобы сделать ваши покупки приятными.</p>
         <div class="services-content">
@@ -251,7 +251,7 @@
       </section>
 
       <section class="description">
-        <h2>КОМПАНИЯ «Техномарт»</h2>
+        <h2 class="title">КОМПАНИЯ «Техномарт»</h2>
         <p>Настоящий мужской шоппинг начинается здесь! Огромный выбор товаров для ремонта и<br>
           строительства не оставит равнодушными любителей сэкономить на гастарбайтерах.</p>
         <p>Мы можем доставить ваш товар в самые отдаленные точки России!<br>
@@ -265,7 +265,7 @@
       </section>
 
       <section class="contacts">
-        <h2>Контакты</h2>
+        <h2 class="title">Контакты</h2>
         <p>Вы можете забрать товар сами,<br>
           заехав в наш офис:</p>
         <a href="map.html">
@@ -325,16 +325,16 @@
       <h2 class="visually-hidden">Отправить сообщение</h2>
       <form action="https://echo.htmlacademy.ru" method="post">
         <p>
-        <label for="user-name">Ваше имя:</label>
-        <input id="user-name" type="text" name="name" placeholder="Представьтесь, пожалуйста">
+          <label for="user-name">Ваше имя:</label>
+          <input class="message-input" id="user-name" type="text" name="name" placeholder="Представьтесь, пожалуйста">
         </p>
         <p>
           <label for="user-mail">Ваш e-mail:</label>
-          <input id="user-mail" type="email" name="e-mail" placeholder="Для отправки ответа" required>
+          <input class="message-input" id="user-mail" type="email" name="e-mail" placeholder="Для отправки ответа" required>
         </p>
         <p>
           <label for="comment-field">Текст письма:</label>
-          <textarea id="comment-field"  name="text-field" placeholder="В свободной форме"></textarea>
+          <textarea class="message-input" id="comment-field"  name="text-field" placeholder="В свободной форме"></textarea>
         </p>
         <button class="button to-send-button" type="submit">Отправить</button>
         <button class="modal-close" type="button">Закрыть</button>
@@ -360,11 +360,11 @@
       <form class="login-form" action="https://echo.htmlacademy.ru" method="post">
         <p>
           <label class="visually-hidden" for="user-login">Логин</label>
-          <input class="login-icon-user" id="user-login" type="text" name="login" placeholder="Логин" required>
+          <input class="login-input login-icon-user" id="user-login" type="text" name="login" placeholder="Логин" required>
         </p>
         <p>
           <label class="visually-hidden" for="user-password">Пароль</label>
-          <input class="login-icon-password" id="user-password" type="password" name="password" placeholder="Пароль" required>
+          <input class="login-input login-icon-password" id="user-password" type="password" name="password" placeholder="Пароль" required>
         </p>
         <p class="login-password-info">
           <label class="login-checkbox">
